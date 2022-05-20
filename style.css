@@ -1,0 +1,92 @@
+ .body{
+    background-image: url(Icons/bgImg2.webp);
+    background-repeat:repeat;
+    
+ }
+ .img{
+      border:5px solid #0000ff ; 
+      border-radius: 30px;
+      width: 300px;
+      height: 300px;
+      margin-left: 40%;
+      margin-right: 25%;
+      
+      
+}
+img:hover{
+    border: 3px solid #66f3f1;
+}
+.glow {
+    font-size: 80px;
+    color:#000000;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0000ff, 0 0 40px #0000ff, 0 0 50px #0000ff, 0 0 60px #0000ff, 0 0 70px #0000ff;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #66f3f1, 0 0 40px #66f3f1, 0 0 50px #66f3f1, 0 0 60px #66f3f1, 0 0 70px #66f3f1, 0 0 80px #66f3f1;
+    }
+  }
+
+.header{
+    
+    color:#66f3f1; 
+    font-family:cursive;
+    text-align:center;
+    border: 3px solid #45A29E;
+    
+}
+.links{
+  display:flex;
+    -ms-flex-align: center;
+    color: #66f3f1;
+    text-align: center;
+    font-family:cursive;
+    size: 50px;
+  
+    
+}
+.imgHead{
+    color:#66f3f1;
+    font-family:cursive;
+    border: 3px solid #45A29E;
+    text-align: center;
+    font-size: 30;
+}
+
+
+.container{
+    display:flex;
+    justify-content:center ;
+}
+.games{
+  display:flex;
+  flex-direction: column;  
+}
+.meImg{
+  width:200px;
+  height:200px;
+  border: 5px solid #0000ff;
+  border-radius: 30px;
+
+}
+.bio{
+  color: #45A29E;
+  text-align: center;
+  
+  width:800px;
+  height:130px;
+  border: 5px solid #0000ff;
+  border-radius: 10px;
+}
+.img_bio{
+  
+  display: flex;
+  flex-direction: row;
+}
